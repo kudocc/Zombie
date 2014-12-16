@@ -15,6 +15,7 @@
 		27BC204E1A3FD00E00158FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BC204D1A3FD00E00158FE5 /* Images.xcassets */; };
 		27BC20511A3FD00E00158FE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BC204F1A3FD00E00158FE5 /* LaunchScreen.xib */; };
 		27BC205D1A3FD00E00158FE5 /* NSZombieTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BC205C1A3FD00E00158FE5 /* NSZombieTestTests.m */; };
+		27BC20681A3FD0AF00158FE5 /* NSZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BC20671A3FD0AF00158FE5 /* NSZombie.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		27BC20561A3FD00E00158FE5 /* NSZombieTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSZombieTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BC205B1A3FD00E00158FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27BC205C1A3FD00E00158FE5 /* NSZombieTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSZombieTestTests.m; sourceTree = "<group>"; };
+		27BC20661A3FD0AF00158FE5 /* NSZombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSZombie.h; sourceTree = "<group>"; };
+		27BC20671A3FD0AF00158FE5 /* NSZombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSZombie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				27BC204D1A3FD00E00158FE5 /* Images.xcassets */,
 				27BC204F1A3FD00E00158FE5 /* LaunchScreen.xib */,
 				27BC203D1A3FD00E00158FE5 /* Supporting Files */,
+				27BC20661A3FD0AF00158FE5 /* NSZombie.h */,
+				27BC20671A3FD0AF00158FE5 /* NSZombie.m */,
 			);
 			path = NSZombieTest;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				27BC20461A3FD00E00158FE5 /* MasterViewController.m in Sources */,
 				27BC20401A3FD00E00158FE5 /* main.m in Sources */,
 				27BC20491A3FD00E00158FE5 /* DetailViewController.m in Sources */,
+				27BC20681A3FD0AF00158FE5 /* NSZombie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSZombieTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSZombieTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
